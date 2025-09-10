@@ -1,0 +1,40 @@
+{
+  "name": "cortex-blog-backend",
+  "version": "1.0.0",
+  "description": "Cortex Blog Backend - A fully decoupled, API-first backend system for a premium technology blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "vercel",
+    "schema:deploy": "sanity schema deploy",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sanity start"
+  },
+  "keywords": [
+    "blog",
+    "cms",
+    "sanity",
+    "vercel",
+    "serverless",
+    "api",
+    "backend"
+  ],
+  "author": "Cortex Blog Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Aleo1-lab/web-site-project.git"
+  },
+  "dependencies": {
+    "@sanity/astro": "^3.2.10",
+    "@sanity/client": "^7.11.1",
+    "@sanity/vision": "^4.7.0",
+    "@tailwindcss/vite": "^4.1.13",
+    "cors": "^2.8.5",
+    "resend": "^6.0.3",
+    "sanity": "^4.3.0",
+    "styled-components": "^6.1.19",
+    "tailwindcss": "^4.1.13"
+  }
+}
